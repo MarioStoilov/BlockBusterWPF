@@ -1,0 +1,21 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:BlockBusterWPF" x:Class="BlockBusterWPF.MainWindow"
+        Title="MainWindow" Height="500" Width="600" KeyDown="Window_KeyDown" KeyUp="Window_KeyUp">
+    <Canvas Name="Container" Height="460" Width="580">
+        <local:Racket Canvas.Left="227" Canvas.Top="440" x:Name ="MainRacket"/>
+        <local:Ball Canvas.Left="240" Canvas.Top="425" x:Name="MainBall"/>
+        <local:Brick Canvas.Left="10" Canvas.Top="31"/>
+        <local:Brick Canvas.Left="65" Canvas.Top="31"/>
+        <local:Brick Canvas.Left="122" Canvas.Top="31"/>
+        <local:Brick Canvas.Left="183" Canvas.Top="31"/>
+        <local:Brick Canvas.Left="240" Canvas.Top="31"/>
+        <local:Brick Canvas.Left="299" Canvas.Top="31"/>
+        <local:Brick Canvas.Left="355" Canvas.Top="31"/>
+        <local:Brick Canvas.Left="413" Canvas.Top="31"/>
+        <local:Brick Canvas.Left="470" Canvas.Top="31"/>
+        <local:Brick Canvas.Left="530" Canvas.Top="31"/>
+
+    </Canvas>
+</Window>
